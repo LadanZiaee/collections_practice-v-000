@@ -32,4 +32,5 @@ end
 def reverse_array(array)
   array.sort do |num| 
     num.reverse 
+  end
 end
