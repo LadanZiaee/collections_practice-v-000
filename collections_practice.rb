@@ -34,8 +34,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |third|
-    third[2].gsub("", "$")
+  kesha = []
+  array.each do |letter|
+    new_letter = letter.split""
   end
   array
 end
