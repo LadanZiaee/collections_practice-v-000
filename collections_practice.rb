@@ -38,6 +38,7 @@ def kesha_maker(array)
   array.each do |letter|
     new_letter = letter.split""
     new_letter[2] = "$"
+    kesha << letter
   end
   array
 end
