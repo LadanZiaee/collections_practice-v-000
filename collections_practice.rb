@@ -48,6 +48,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect {|word, i| "#{word}#{i}}
+  array.each_with_index.collect {|word, i| "#{word}s"}
     
 end
