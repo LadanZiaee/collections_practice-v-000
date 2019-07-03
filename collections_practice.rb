@@ -25,3 +25,11 @@ def swap_elements(array)
   array
 end 
 
+#def swap_elements_from_to(a, i, di)
+
+#end
+
+def reverse_array(array)
+  array.sort do |num| 
+    num.reverse 
+end
