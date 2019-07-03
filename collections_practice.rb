@@ -35,5 +35,6 @@ end
 
 def kesha_maker(array)
   array.each do |third|
-    third
+    third[2].sub("", $)
+  end
 end
