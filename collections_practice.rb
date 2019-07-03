@@ -49,7 +49,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |word, i| 
-    if words = word[1]
+    if word[1] = words
       words
     else
     "#{word}s"
