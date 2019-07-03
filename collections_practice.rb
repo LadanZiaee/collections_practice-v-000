@@ -41,3 +41,4 @@ end
 
 def find_a(array)
   array.select?{|i| i.start_with?("a")}
+end
